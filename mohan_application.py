@@ -5,6 +5,8 @@ import pickle
 with open("linear_regression_model_2712.pkl", "rb") as f:
     # with open("linear_regression_model.pkl", "rb") as f:
     model = pickle.load(f)
+  print("Code by Praveenraj")
+
 
 app = Flask(__name__)
 
