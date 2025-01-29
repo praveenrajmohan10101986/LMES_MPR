@@ -4,7 +4,7 @@ import pickle
 # Load the saved model
 with open("linear_regression_model_2712.pkl", "rb") as f:
     # with open("linear_regression_model.pkl", "rb") as f:
-    print("Code by GK")
+    print("Code by Praveen")
     model = pickle.load(f)
 
 app = Flask(__name__)
